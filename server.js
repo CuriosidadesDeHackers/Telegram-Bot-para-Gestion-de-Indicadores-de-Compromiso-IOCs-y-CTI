@@ -118,7 +118,7 @@ app.post('/peticiones.adoc', (req, res) => {
     res.send('Keep-alive recibida');  // Respuesta simple para confirmar que la solicitud fue recibida
 });
 
-// Función para enviar solicitud de keep-alive cada minuto
+// Función para enviar solicitud de keep-alive cada dos horas
 const keepAliveRequest = () => {
     axios.post('http://localhost:3000/peticiones.adoc', {
         data: '-,-,-,-'
@@ -131,8 +131,8 @@ const keepAliveRequest = () => {
     });
 };
 
-// Ejecutar la solicitud keep-alive cada 60 segundos (1 minuto)
-setInterval(keepAliveRequest, 60000);
+// Ejecutar la solicitud keep-alive cada dos horas (7200000 milisegundos)
+setInterval(keepAliveRequest, 7200000); // 2 horas = 7200000 ms
 
 // Iniciar el servidor Express
 const PORT = process.env.PORT || 3000;
@@ -148,3 +148,4 @@ app.listen(PORT, async () => {
     // Ejecutar la primera solicitud inmediatamente
     keepAliveRequest();
 });
+
