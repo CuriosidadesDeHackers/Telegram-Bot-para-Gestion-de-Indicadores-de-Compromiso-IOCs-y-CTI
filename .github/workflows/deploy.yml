@@ -33,12 +33,12 @@ jobs:
       run: |
         npm start &  # Iniciar el servidor en segundo plano
 
-    - name: Keep-alive requests every minute
+    - name: Keep-alive requests every 2 hours
       run: |
-        for i in {1..5}; do  # Ajusta el número de iteraciones según la duración que desees
+        for i in {1..12}; do  # Ajusta el número de iteraciones (12 horas en este caso)
           echo "Enviando solicitud de keep-alive número $i..."
           curl -X POST http://localhost:3000/peticiones.adoc \
           -H "Content-Type: application/x-www-form-urlencoded" \
           -d "-,-,-,-"
-          sleep 60  # Espera 1 minuto antes de la siguiente solicitud
+          sleep 7200  # Espera 2 horas (7200 segundos) antes de la siguiente solicitud
         done
