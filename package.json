@@ -1,0 +1,20 @@
+{
+  "name": "telegram-github-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2",
+    "serverless-http": "^3.2.0",
+    "simple-git": "^3.27.0",
+    "telegraf": "^4.16.3"
+  },
+  "license": "ISC"
+}
