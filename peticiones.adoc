@@ -10,3 +10,4 @@
 | - | - | - | -
 | - | - | - | -
 | prueba | prueba | prubea | prubea
+| 3 | 3 | 3 | 3
