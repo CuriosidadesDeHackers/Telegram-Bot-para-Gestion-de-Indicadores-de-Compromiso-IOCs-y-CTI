@@ -11,3 +11,4 @@
 | - | - | - | -
 | prueba | prueba | prubea | prubea
 | 3 | 3 | 3 | 3
+| 21 | 21 | 21 | 21
