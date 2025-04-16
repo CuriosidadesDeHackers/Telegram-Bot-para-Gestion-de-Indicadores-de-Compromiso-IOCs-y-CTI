@@ -1,3 +1,7 @@
+<a href='https://ko-fi.com/O4O3W3IIA' target='_blank'>
+  <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+</a>
+
 # 🤖 Telegram Bot para Gestión de Indicadores de Compromiso (IOCs) 📝
 
 Este proyecto consiste en un bot de Telegram que permite a los usuarios agregar Indicadores de Compromiso (IOCs) a un archivo AsciiDoc (`peticiones.adoc`) y luego subirlo a un repositorio de GitHub. El bot está diseñado para funcionar en chats privados y grupos específicos, y utiliza variables de entorno para la configuración.
