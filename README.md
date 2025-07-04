@@ -65,8 +65,12 @@ Este proyecto consiste en un bot de Telegram que permite a los usuarios agregar 
 
 ### Captura de Pantalla del Bot en Acción
 
-![1728646983019](https://github.com/user-attachments/assets/73fa0b76-a838-4c29-ba4f-8caa299833f2)
-![1728646983199](https://github.com/user-attachments/assets/d10c8796-5a52-4c9a-a07d-1d133f36be07)
+![111](https://github.com/user-attachments/assets/7c48b9ed-00fe-4052-88b6-434d50d3072f)
+![222](https://github.com/user-attachments/assets/95ef1900-b36f-4bb9-ac36-de155f25f02b)
+![333](https://github.com/user-attachments/assets/fafd4d27-b839-43ae-8138-668ee0e192d0)
+![image](https://github.com/user-attachments/assets/bd02b5ef-6b84-463f-b841-923b376392b1)
+
+
 
 ## 🤝 Contribuciones
 
